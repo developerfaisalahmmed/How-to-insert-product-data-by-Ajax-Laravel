@@ -147,7 +147,7 @@
                     var id = 1;
                     $.each(response.product, function (key,item) {
                         html += '<tr id=id>' +
-                            '<th scope="row">' + item.id + '</th>' +
+                            '<th scope="row">' + id++ + '</th>' +
                             '<td>' + item.name + '</td>' +
                             ' <td>' + item.price + '</td>' +
                             '<td> <img width="100px" height="100px" src="' + item.image + '"/></td>' +
